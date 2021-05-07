@@ -1,12 +1,12 @@
-﻿using System;
+﻿using DuplicateScanner.Cmd.UI;
 
 namespace DuplicateScanner.Cmd
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var ui = InterfaceStorage.GetUi(UiMode.Cmd);
         }
     }
 }
