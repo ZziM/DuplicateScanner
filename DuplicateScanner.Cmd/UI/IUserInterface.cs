@@ -2,6 +2,6 @@
 {
     internal interface IUserInterface
     {
-        
+        void Execute(string command);
     }
 }
